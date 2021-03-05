@@ -18,6 +18,10 @@
     background-color: #F4F9FD;
 }
 
+.bg-main {
+    background-color: #F4F9FD;
+}
+
 .wrapper {
     width: 80%;
     margin: auto;
@@ -93,12 +97,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 700px;
+    height: 695px;
 }
 
 .box {
     width: 50%;
-    padding-top: 50px;
+    padding: 30px 0;
 }
 
 .box > p {
@@ -111,3 +115,87 @@
     margin-left: 0;
     padding: 20px 40px;
 }
+/*inizio sezione main*/
+
+.box-cube {
+    width: 200px;
+    margin: auto;
+}
+.cube {
+    width: 100%;
+    object-fit: contain;
+}
+
+.box-content {
+    text-align: center;
+    margin: auto;
+}
+
+.box-content > p {
+    padding: 35px 0;
+    line-height: 25px; 
+}
+
+.horizontal-card {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #E6ECF1;
+}
+
+.row {
+    padding: 50px 40px;
+}
+
+.box-img-btn {
+    float: left;
+    width: 35%;
+}
+
+.box-img {
+    width: 150px;
+    margin: auto;
+}
+
+.box-img > button {
+    margin-top: 20px;
+}
+
+.medium {
+    margin-left: 0;
+    padding: 15px 30px;
+    width: 150px;
+}
+
+.side-box {
+    float: left;
+    width: 65%;
+}
+
+.side-box > p, span {
+    line-height: 25px;
+    padding: 25px 0;
+    color: #33475B;
+}
+
+.side-box > .rule {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    padding: 0 0 0 20px;
+    color: #899397;
+}
+
+.side-box > .marked-list {
+    padding-top: 25px;
+}
+
+.marked-list > * {
+    padding-right: 20px;
+}
+
+
+
+
+
+
