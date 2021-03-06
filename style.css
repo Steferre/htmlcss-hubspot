@@ -270,11 +270,10 @@
 .square {
     float: left;
     width: calc(896px/4);
-    height: 100px;
     border-bottom: 1px solid #FFFFFF;    
 }
 
-.lgtblue-row > .square:not(:last-child) {
+.lgtblue-row > .square:not(.last) {
     border-right: 1px solid #FFFFFF;
 }
 
@@ -286,7 +285,77 @@
     width: 50%;
     margin: auto;
     text-align: center;
+    padding: 10px 0;
 }
+
+.sq-cnt > img {
+    height: 30px;
+}
+
+.sq-cnt > h2 {
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+}
+
+.sq-cnt > p {
+    font-size: 10px;
+}
+/*inizio sezione partners*/
+.partners {
+    width: 100%;
+    color: #33475B;
+}
+.pt-row {
+    width: 100%; 
+    padding: 40px 40px;
+}
+.numbers {
+    float: left;
+    width: 35%;
+}
+.n-cnt {
+    width: 50%;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.n-cnt > h2 {
+    font-size: 35px;
+}
+
+.n-cnt > p {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 10px 20px 0 0;
+}
+.logos {
+    float: left;
+    width: 65%;
+}
+.lg {
+    float: left;
+}
+.lg > img {
+    width: 110px;
+    height: 30px;
+    object-fit: contain;
+    margin: 5px 10px;
+}
+
+.box.left {
+    float: left;
+    padding-right: 70px;
+}
+.photo-spot {
+    float: right;
+    width: 50%;
+}
+.photo-spot > img {
+    width: 60%;
+    object-fit: contain;
+    margin: 20px 0 0 175px;
+}
+/*inizio footer*/
 
 
 
