@@ -22,6 +22,10 @@
     background-color: #F4F9FD;
 }
 
+.bg-blue {
+    background-color: #00BAA8;
+}
+
 .wrapper {
     width: 900px;
     margin: auto;
@@ -242,6 +246,48 @@
     width: 100px;
     margin: auto;
 }
+/*inizo sezione con sfondo azzurro*/
+.records {
+    padding: 35px 0 60px 0;
+}
+
+.records > * {
+    color: #FFFFFF;
+}
+
+.text-part > h2 {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.text-part > p {
+    line-height: 25px;
+    padding: 30px 0 50px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.square {
+    float: left;
+    width: calc(896px/4);
+    height: 100px;
+    border-bottom: 1px solid #FFFFFF;    
+}
+
+.lgtblue-row > .square:not(:last-child) {
+    border-right: 1px solid #FFFFFF;
+}
+
+.lgtblue-row.bottom > * {
+    border-bottom: none;
+}
+
+.sq-cnt {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
 
 
 
