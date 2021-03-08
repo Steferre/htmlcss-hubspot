@@ -204,8 +204,16 @@
     padding-top: 25px;
 }
 
-.marked-list > * {
-    padding-right: 20px;
+.marked-list > .word  {
+    padding: 0 30px 0 10px;
+}
+
+.check {
+    color: #FFFFFF; 
+    background-color: #FE775A;
+    display: inline-block;
+    padding: 0px 5px;
+    border-radius: 50%;
 }
 
 .vertical-card {
@@ -257,6 +265,15 @@
     width: 100px;
     margin: auto;
 }
+
+.mark {
+    color: #FFFFFF; 
+    background-color: #FE775A;
+    border-radius: 50%;
+    padding: 0 3px;
+    font-size: 12px;   
+}
+
 /*inizo sezione con sfondo azzurro*/
 .records {
     padding: 35px 0 60px 0;
