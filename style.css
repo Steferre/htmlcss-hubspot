@@ -48,7 +48,11 @@
     color: #32495B;
 }
 
-.english {
+.mini-box > * {
+    vertical-align: middle;
+}
+
+.lingua {
     border-right: 1px solid #899397;
     padding-right: 15px;
 }
@@ -171,18 +175,18 @@
     width: 150px;
 }
 
-.side-box {
+.side-zone {
     float: left;
     width: 65%;
 }
 
-.side-box > p, span {
+.side-zone > p, .side-zone > span {
     line-height: 25px;
     padding: 25px 0;
     color: #33475B;
 }
 
-.side-box > .rule {
+.side-zone > .rule {
     display: inline-block;
     width: 50%;
     vertical-align: middle;
@@ -190,7 +194,7 @@
     color: #899397;
 }
 
-.side-box > .marked-list {
+.side-zone > .marked-list {
     padding-top: 25px;
 }
 
