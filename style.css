@@ -82,7 +82,7 @@
 
 .list {
     float: right;
-    padding: 6px 0;
+    padding: 8.5px 0;
 }
 
 .list > ul > li {
@@ -237,6 +237,7 @@
     padding: 25px;
     text-align: center;
     color: #33475B;
+    font-size: 14px;
 }
 
 .cln-content > *:not(.cln-img) {
@@ -264,6 +265,11 @@
 .cln-img {
     width: 100px;
     margin: auto;
+}
+
+.cln-img > .main-img {
+    width: 100px;
+    height: 110px;
 }
 
 .mark {
