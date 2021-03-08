@@ -80,9 +80,14 @@
     padding: 10px; 
 }
 
+.h-bottom {
+    height: 30px;
+    margin: 25px 0;
+}
+
 .list {
     float: right;
-    padding: 8.5px 0;
+    line-height: 30px;
 }
 
 .list > ul > li {
@@ -91,9 +96,6 @@
     padding: 0 0 0 15px; 
 }
 
-.h-bottom {
-    padding: 22.5px 0;
-}
 /*fine zona header-nav*/
 
 .jumbotron {
